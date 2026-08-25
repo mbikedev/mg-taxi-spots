@@ -2,10 +2,13 @@
   {
     "id": "luchthaven-nl",
     "lang": "nl",
-    "hook": ["Vlucht om 6u.", "Wie brengt je?"],
+    "hook": [
+      "Vlucht om 6u.",
+      "Wie brengt je?"
+    ],
     "from": "Halen",
     "to": "Brussels Airport",
-    "distanceKm": 60,
+    "distanceKm": 55.2,
     "tariff": "B",
     "night": false,
     "priceLabel": "Tarief B",
@@ -20,10 +23,13 @@
   {
     "id": "aeroport-fr",
     "lang": "fr",
-    "hook": ["Vol à 6h.", "Qui vous emmène ?"],
+    "hook": [
+      "Vol à 6h.",
+      "Qui vous emmène ?"
+    ],
     "from": "Halen",
     "to": "Brussels Airport",
-    "distanceKm": 60,
+    "distanceKm": 55.2,
     "tariff": "B",
     "night": false,
     "priceLabel": "Tarif B",
@@ -38,13 +44,16 @@
   {
     "id": "avond-nl",
     "lang": "nl",
-    "hook": ["Laatste trein weg.", "Nog 22 km."],
+    "hook": [
+      "Laatste trein weg.",
+      "Nog 16 km."
+    ],
     "from": "Hasselt",
     "to": "Halen",
-    "distanceKm": 22,
-    "tariff": "B",
+    "distanceKm": 15.9,
+    "tariff": "A",
     "night": true,
-    "priceLabel": "Tarief B — nacht",
+    "priceLabel": "Tarief A — nacht",
     "facts": [
       "Nachttarief van 22u tot 6u",
       "Je chauffeur wacht aan het station",
@@ -56,7 +65,10 @@
   {
     "id": "zakelijk-nl",
     "lang": "nl",
-    "hook": ["Meeting in Brussel.", "Jij werkt door."],
+    "hook": [
+      "Meeting in Brussel.",
+      "Jij werkt door."
+    ],
     "from": "Halen",
     "to": "Brussel-Centrum",
     "distanceKm": 62,
@@ -74,13 +86,16 @@
   {
     "id": "event-nl",
     "lang": "nl",
-    "hook": ["Festival gedaan.", "Wij staan er."],
+    "hook": [
+      "Festival gedaan.",
+      "Wij staan er."
+    ],
     "from": "Hasselt",
     "to": "Halen",
-    "distanceKm": 22,
+    "distanceKm": 15.9,
     "tariff": "C",
     "night": true,
-    "priceLabel": "Tarief C — event",
+    "priceLabel": "Tarief C — nacht",
     "facts": [
       "Club, festival en evenementen",
       "Afspraak vooraf, chauffeur op post",
@@ -92,13 +107,16 @@
   {
     "id": "calculator-nl",
     "lang": "nl",
-    "hook": ["Wat kost mijn rit?", "Reken het zelf uit."],
-    "from": "Jouw adres",
-    "to": "Jouw bestemming",
-    "distanceKm": 45,
-    "tariff": "B",
+    "hook": [
+      "Wat kost mijn rit?",
+      "Reken het zelf uit."
+    ],
+    "from": "Halen",
+    "to": "Hasselt",
+    "distanceKm": 15.9,
+    "tariff": "A",
     "night": false,
-    "priceLabel": "Tarief B",
+    "priceLabel": "Tarief A",
     "facts": [
       "Prijscalculator op mg-taxi.be",
       "Vertrek- en aankomstadres ingeven, klaar",
