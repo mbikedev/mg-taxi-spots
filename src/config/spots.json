@@ -1,0 +1,110 @@
+[
+  {
+    "id": "luchthaven-nl",
+    "lang": "nl",
+    "hook": ["Vlucht om 6u.", "Wie brengt je?"],
+    "from": "Halen",
+    "to": "Brussels Airport",
+    "distanceKm": 60,
+    "tariff": "B",
+    "night": false,
+    "priceLabel": "Tarief B",
+    "facts": [
+      "Prijs vooraf berekend op mg-taxi.be",
+      "Toyota C-HR Hybrid — comfortabel en zuinig",
+      "Btw-factuur voor particulier of bedrijf"
+    ],
+    "ctaLine": "Reserveer online",
+    "kicker": "Luchthavenvervoer vanuit Limburg"
+  },
+  {
+    "id": "aeroport-fr",
+    "lang": "fr",
+    "hook": ["Vol à 6h.", "Qui vous emmène ?"],
+    "from": "Halen",
+    "to": "Brussels Airport",
+    "distanceKm": 60,
+    "tariff": "B",
+    "night": false,
+    "priceLabel": "Tarif B",
+    "facts": [
+      "Prix calculé à l'avance sur mg-taxi.be",
+      "Toyota C-HR Hybrid — confortable et sobre",
+      "Facture TVA pour particulier ou entreprise"
+    ],
+    "ctaLine": "Réservez en ligne",
+    "kicker": "Transferts aéroport depuis le Limbourg"
+  },
+  {
+    "id": "avond-nl",
+    "lang": "nl",
+    "hook": ["Laatste trein weg.", "Nog 22 km."],
+    "from": "Hasselt",
+    "to": "Halen",
+    "distanceKm": 22,
+    "tariff": "B",
+    "night": true,
+    "priceLabel": "Tarief B — nacht",
+    "facts": [
+      "Nachttarief van 22u tot 6u",
+      "Je chauffeur wacht aan het station",
+      "Bel rechtstreeks of boek via de site"
+    ],
+    "ctaLine": "Bel of boek online",
+    "kicker": "Avond- en nachtritten"
+  },
+  {
+    "id": "zakelijk-nl",
+    "lang": "nl",
+    "hook": ["Meeting in Brussel.", "Jij werkt door."],
+    "from": "Halen",
+    "to": "Brussel-Centrum",
+    "distanceKm": 62,
+    "tariff": "B",
+    "night": false,
+    "priceLabel": "Tarief B",
+    "facts": [
+      "Conforme btw-factuur, elke rit",
+      "Stiptheid voor je afspraken",
+      "Vaste chauffeur voor terugkerende ritten"
+    ],
+    "ctaLine": "Plan je rit",
+    "kicker": "Bedrijfsritten"
+  },
+  {
+    "id": "event-nl",
+    "lang": "nl",
+    "hook": ["Festival gedaan.", "Wij staan er."],
+    "from": "Hasselt",
+    "to": "Halen",
+    "distanceKm": 22,
+    "tariff": "C",
+    "night": true,
+    "priceLabel": "Tarief C — event",
+    "facts": [
+      "Club, festival en evenementen",
+      "Afspraak vooraf, chauffeur op post",
+      "Tot 4 passagiers per rit"
+    ],
+    "ctaLine": "Reserveer vooraf",
+    "kicker": "Club · Festival · Event"
+  },
+  {
+    "id": "calculator-nl",
+    "lang": "nl",
+    "hook": ["Wat kost mijn rit?", "Reken het zelf uit."],
+    "from": "Jouw adres",
+    "to": "Jouw bestemming",
+    "distanceKm": 45,
+    "tariff": "B",
+    "night": false,
+    "priceLabel": "Tarief B",
+    "facts": [
+      "Prijscalculator op mg-taxi.be",
+      "Vertrek- en aankomstadres ingeven, klaar",
+      "Bevestiging per e-mail na reservatie"
+    ],
+    "ctaLine": "Bereken je prijs",
+    "kicker": "Prijs vooraf gekend"
+  }
+]

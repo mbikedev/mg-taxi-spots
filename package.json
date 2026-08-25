@@ -1,0 +1,25 @@
+{
+  "name": "mg-taxi-spots",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Spots video en serie pour mg-taxi.be",
+  "scripts": {
+    "start": "remotion studio",
+    "render": "remotion render",
+    "render:all": "node scripts/render-all.mjs",
+    "render:vertical": "node scripts/render-all.mjs vertical",
+    "compositions": "remotion compositions",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@remotion/google-fonts": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "typescript": "^5.5.4"
+  }
+}
