@@ -2,6 +2,7 @@ import React from "react";
 import { Easing, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { brand } from "../config/brand";
 import { font } from "../config/fonts";
+import { useLayout } from "../config/layout";
 import type { Spot } from "../config/spots";
 
 const PATH_LENGTH = 1000;
@@ -12,9 +13,9 @@ const PATH = "M 12 82 C 34 78, 26 44, 50 40 S 74 30, 88 16";
 export const RouteLine: React.FC<{ spot: Spot }> = ({ spot }) => {
   const frame = useCurrentFrame();
   const { width, height, fps } = useVideoConfig();
-  const u = Math.min(width, height) / 1080;
-  const vertical = height >= width;
-  const size = vertical ? width * 0.82 : height * 0.62;
+  const L = useLayout();
+  const u = L.u;
+  const size = Math.min(width, height) * L.routeScale;
 
   const draw = interpolate(frame, [80, 250], [0, 1], {
     extrapolateLeft: "clamp",
