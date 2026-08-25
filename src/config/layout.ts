@@ -15,11 +15,15 @@ export const getLayout = (width: number, height: number) => {
     u: Math.min(width, height) / 1080,
     uiSafeBottom: pick(300, 0, 0),
     stagePaddingBottom: pick(460, 210, 180),
-    stagePaddingX: pick(84, 84, 110),
+    stagePaddingX: pick(84, 76, 110),
     routeScale: pick(0.82, 0.5, 0.62),
     routePaddingBottom: pick(260, 130, 190),
-    hookFontSize: pick(128, 104, 104),
-    factFontSize: pick(52, 46, 44),
+    hookFontSize: pick(128, 86, 104),
+    factFontSize: pick(52, 42, 44),
+    illuScale: pick(1.62, 0.94, 1.25),
+    illuBottom: pick(490, 176, 120),
+    textTop: pick(150, 96, 0),
+    textMaxWidth: pick("100%", "94%", "46%"),
   };
 };
 
